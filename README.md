@@ -15,7 +15,7 @@ A collection of operators and other things I forget when going between Elm and H
 | <\|                                             | $                                 |                                                                                      |
 | \|>                                             | &                                 |                                                                                      |
 | <<                                              | .                                 |                                                                                      |
-| >>                                              |                                   | nothing 😢                                                                           |
+| >>                                              | .>                                | requires the [flow](https://hackage.haskell.org/package/flow) package                |
 |                                                 |                                   |                                                                                      |
 | ++                                              | <>                                |                                                                                      |
 | Type.andMap                                     | <\*>                              | `andMap :: f (a -> b) -> f a -> f b`                                                 |
