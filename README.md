@@ -15,7 +15,7 @@ A collection of operators and other things I forget when going between Elm and H
 | <\|                                             | $                                 |                                                                                      |
 | \|>                                             | &                                 |                                                                                      |
 | <<                                              | .                                 |                                                                                      |
-| >>                                              |                                   | nothing 😢                                                                           |
+| >>                                              |                                   | .>                                                                           |
 |                                                 |                                   |                                                                                      |
 | ++                                              | <>                                |                                                                                      |
 | Type.andMap                                     | <\*>                              | `andMap :: f (a -> b) -> f a -> f b`                                                 |
