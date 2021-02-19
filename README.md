@@ -23,6 +23,9 @@ A collection of operators and other things I forget when going between Elm and H
 | import My.Module as X exposing (func, Type(..)) | import My.Module as X             |                                                                                      |
 |                                                 | import My.Module (func, Type(..)) |                                                                                      |
 |                                                 | import qualified My.Module        | The default Haskell import is equivalent to `import My.Module exposing (..)` in Elm. |
+| Tuple.pair                                      | (,)                               |                                                                                     |
+| ({ x, y } as point)                             | point@{x,y}.                      |                                                                                     |
+| Maybe.withDefault                               | Data.Maybe.fromMaybe              |                                                                                     |
 
 ---
 
