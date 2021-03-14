@@ -26,6 +26,7 @@ A collection of operators and other things I forget when going between Elm and H
 | Tuple.pair                                      | (,)                               |                                                                                     |
 | ({ x, y } as point)                             | point@{x,y}.                      |                                                                                     |
 | Maybe.withDefault                               | Data.Maybe.fromMaybe              |                                                                                     |
+| always                                          | const                             |                                                                                     |
 
 ---
 
