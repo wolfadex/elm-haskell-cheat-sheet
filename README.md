@@ -28,8 +28,9 @@ A collection of operators and other things I forget when going between Elm and H
 | Maybe.withDefault                               | Data.Maybe.fromMaybe                        |                                                                                        |
 | always                                          | const                                       |                                                                                        |
 | { record \| field1 = value1, field2 = value2 }  | record { field1 = value1, field2 = value2 } |                                                                                        |
-| record.field                                    | field record.                               |                                                                                        |
-| .field record                                   |                                             | Elm also allows this syntax                                                            |
+| record.field                                    | record.field                                | If you have RecordDotSyntax language extension enabled in Haskell                      |
+| .field record                                   | field record                                |                                                                                        |
+| ({ field } as record)                           | record@RecordConstructor {field}            |                                                                                        |
 
 ---
 
